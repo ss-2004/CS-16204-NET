@@ -5,8 +5,8 @@ NAME : SHRESTH SONKAR
 DATE : 15/01/2024
 GRP : CS6D
 
-Q1:
-A1:
+Q1 : List and explain about 10 different protocols that appear in the protocol column in the unfiltered packet-listing.
+A1 :
 The following protocols are found in the network packet capture :
 1. ARP : Address Resolution Protocol is a network protocol used to map IP address to physical MAC address which can be recognised by the local network. 
 2. DHCP V6 : Dynamic Host Configuration Protocol is a network protocol used to automatically assign IPv6 addresses and configuration parameters to devices on a network. 
@@ -19,12 +19,24 @@ The following protocols are found in the network packet capture :
 9. TLS V1.2 : Transport Layer Security is a cryptographic protocol designed to provide communications security over a computer network. The protocol is widely used in applications such as email, instant messaging, and voice over IP, but its use in securing HTTPS remains the most publicly visible.
 10.UDP : User Datagram Protocol is one of the core communication protocols of the Internet protocol suite used to send messages (transported as datagrams in packets) to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not require prior communication to set up communication channels or data paths.
 
-Q2:
-A2:
+Q2 : How long did it take from when the HTTP GET message was sent until the HTTP OK reply was received?
+A2 : 
+GET sent at 04:57:47.245716796
+OK received at 04:57:47.291161580
+Time taken : 0.04544 seconds or 45.44ms
 
-
-Q3
+Q3 : What is the Internet address of the gaia.cs.umass.edu? What is the Internet address of your computer?
 A3 : 
+IP of gaia.cs.umass.edu : 172.31.132.50 
+IP of my computer : 172.31.100.14
 
-IP of gaia.cs.umass.edu : 
-IP of my computer : 
+Q4 : Print the two HTTP messages (GET and OK) referred to in Q2 above.
+A4 : 
+
+GET : 
+No.     Time                          Delta Time     Source                Destination           Protocol Length Info
+  51303 2024-01-15 04:57:47.245716796 0.000096187    172.31.132.50         172.31.100.14         HTTP     329    CONNECT api.github.com:443 HTTP/1.1 
+
+OK : 
+No.     Time                          Delta Time     Source                Destination           Protocol Length Info
+  51317 2024-01-15 04:57:47.291161580 0.000142993    172.31.132.50         172.31.100.14         TLSv1.2  583    Client Hello
