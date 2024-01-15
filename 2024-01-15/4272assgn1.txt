@@ -1,0 +1,13 @@
+NAME : SHRESTH SONKAR
+REGNO : 20214272
+GRP : CS6D
+DATE : 15/01/2024
+
+Q1:
+A1:
+
+The following protocols are found in the network packet capture :
+1. TCP
+2. UDP
+3. SSDP
+4. TLS V1.2
